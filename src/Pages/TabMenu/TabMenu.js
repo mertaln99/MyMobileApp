@@ -1,14 +1,12 @@
 import React from 'react';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import Icon from '../../components/Icon';
 
 const TabMenu = () => {
   return (
     <View style={styles.tabBackground}>
-      <TouchableOpacity style={styles.menuIcon}>
-        <Icon name="home" size={25} color="white" />
-      </TouchableOpacity>
       <Text style={styles.tabText}>BlindShot</Text>
+      <Icon name="home" size={25} color="white" />
     </View>
   );
 };
@@ -19,7 +17,6 @@ const styles = StyleSheet.create({
   tabBackground: {
     height: 50,
     backgroundColor: '#4a044e',
-    flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -30,9 +27,5 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#fff',
     color: '#fff',
-  },
-  menuIcon: {
-    position: "absolute",
-    left: 15,
   },
 });
