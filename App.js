@@ -1,8 +1,7 @@
-
-import {StyleSheet, View} from 'react-native';
+import React from 'react';
+import {StyleSheet, View, Text} from 'react-native';
 import MainMenu from './src/Pages/MainMenu/MainMenu';
 import TabMenu from './src/Pages/TabMenu/TabMenu';
-
 
 const App = () => {
   return (
