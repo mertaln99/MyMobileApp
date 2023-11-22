@@ -1,13 +1,25 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
-import MainMenu from './src/Pages/MainMenu/MainMenu';
-import TabMenu from './src/Pages/TabMenu/TabMenu';
+
+
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+const Stack = createNativeStackNavigator();
 
 const App = () => {
   return (
-    <View style={styles.background}>
-        <TabMenu />
-        <MainMenu />
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={Home} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+};
+
+const Home = () => {
+  return (
+    <Videw>
+      <Text>Home</Text>
     </View>
   );
 };
@@ -15,8 +27,8 @@ const App = () => {
 export default App;
 
 const styles = StyleSheet.create({
-  background: {
-    backgroundColor: '#f0abfc',
-    flex: 1,
-  },
+  // background: {
+  //   backgroundColor: '#f0abfc',
+  //   flex: 1,
+  // },
 });

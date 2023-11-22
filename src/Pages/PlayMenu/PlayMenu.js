@@ -1,14 +1,14 @@
-import React from "react";
-import { Text, View } from "react-native";
+// import React from "react";
+// import { Text, View } from "react-native";
 
-const PlayMenu = () => {
-    return (
-        <View>
-            <Text>
-                Nabarr
-            </Text>
-        </View>
-    )
-}
+// const PlayMenu = () => {
+//     return (
+//         <View>
+//             <Text>
+//                 Nabarr
+//             </Text>
+//         </View>
+//     )
+// }
 
-export default PlayMenu;
+// export default PlayMenu;

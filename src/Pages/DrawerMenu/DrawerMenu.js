@@ -1,14 +1,14 @@
-import React from 'react';
-import {Text, View} from 'react-native';
+// import React from 'react';
+// import {Text, View} from 'react-native';
 
-const DrawerMenu = () => {
-  return (
-    <View>
-      <Text>Nabarrr</Text>
-    </View>
-  );
-};
+// const DrawerMenu = () => {
+//   return (
+//     <View>
+//       <Text>Nabarrr</Text>
+//     </View>
+//   );
+// };
 
-export default DrawerMenu;
+// export default DrawerMenu;
 
-const styles = StyleSheet.create({});
+// const styles = StyleSheet.create({});
